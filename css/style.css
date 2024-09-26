@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url("../img/pizza-with-cheese-brown-wooden-surface-bright-surface.jpg")
+    no-repeat center/cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  width: 80vh;
+  max-height: 600px;
+  border: solid black 4px;
+  background: white;
+}
+
+#lista-ingredientes {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.ingrediente {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgb(148, 108, 55);
+  padding: 20px 10px;
+  list-style: none;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.ingrediente:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.verdura {
+  background-color: rgb(30, 102, 30);
+}
+
+.enlace {
+  border: solid 1px purple;
+  background-color: aqua;
+  padding: 10px;
+  color: white;
+}
+
+.texto-rojo {
+  color: rgb(255, 0, 0);
+}
